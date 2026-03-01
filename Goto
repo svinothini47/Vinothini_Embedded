@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    printf("Welcome \n");
+    goto Livewire;
+    printf("Hi");
+    Livewire :printf("Welcom to Livewire");
+    return 0;
+   
+}
